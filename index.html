@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-lang="fa">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07110d">
+  <meta name="description" content="Arshia Taghipour — Builder, Maker, Problem Solver">
+  <title>Arshia Taghipour — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="grid" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="progress" id="progress"></div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#home" aria-label="Arshia home"><span>AT</span><i></i></a>
+    <nav id="desktopNav"></nav>
+    <div class="nav-tools">
+      <button class="lang" id="langBtn" type="button">EN <b>/</b> FA</button>
+      <button class="menu" id="menuBtn" type="button" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span><span data-ui="heroKicker"></span></div>
+        <div class="hero-title-wrap">
+          <span class="ghost-number">01</span>
+          <h1 id="name"></h1>
+        </div>
+        <p class="hero-role" id="role"></p>
+        <p class="hero-intro" id="intro"></p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects"><span data-ui="heroButton"></span><em>↙</em></a>
+          <a class="text-link" href="#contact"><span data-ui="contactKicker"></span><i></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="photo-frame" data-tilt>
+          <div class="frame-label">WORKSPACE / 01</div>
+          <img id="workspace" src="" alt="Workspace">
+          <div class="frame-caption">build / test / repeat</div>
+        </div>
+        <div class="floating-note">
+          <small>NOTE_001</small>
+          <span data-note-en="Turning ideas into working things." data-note-fa="تبدیل ایده به چیزی که واقعاً کار می‌کند."></span>
+          <b>↗</b>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="scroll"><span data-ui="scroll"></span><i></i></div>
+        <div class="signal"><span>ESP</span><span>WEB</span><span>PCB</span><span>3D</span></div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-head reveal">
+        <div><span class="eyebrow" data-ui="projectsKicker"></span><h2 data-ui="projectsTitle"></h2></div>
+        <p data-ui="projectsLead"></p>
+      </div>
+      <div class="featured reveal" id="featured"></div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-head reveal">
+        <div><span class="eyebrow" data-ui="skillsKicker"></span><h2 data-ui="skillsTitle"></h2></div>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-intro reveal">
+          <div class="mini-terminal"><span>STATUS</span><b>ONLINE</b><i></i></div>
+          <p id="aboutShort"></p>
+        </div>
+        <div class="skills-list" id="skillsList"></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-card reveal">
+        <div class="about-mark">02</div>
+        <div>
+          <span class="eyebrow" data-ui="aboutKicker"></span>
+          <h2 data-ui="aboutTitle"></h2>
+          <p id="aboutText"></p>
+        </div>
+        <div class="about-lines"><span></span><span></span><span></span></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal">
+        <div>
+          <span class="eyebrow" data-ui="contactKicker"></span>
+          <h2 data-ui="contactTitle"></h2>
+          <p data-ui="contactText"></p>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-main" id="emailLink" href="#"></a>
+          <a class="contact-social" id="githubLink" href="#" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="yearNow"></span> ARSHIA TAGHIPOUR</span><span data-ui="availability"></span></footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <article class="modal-card">
+      <button class="modal-close" data-close>× <span data-ui="close"></span></button>
+      <div id="modalBody"></div>
+    </article>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

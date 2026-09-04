@@ -1,0 +1,501 @@
+{
+  "profile": {
+    "name": {
+      "en": "Arshia Taghipour",
+      "fa": "عرشیا تقی‌پور"
+    },
+    "role": {
+      "en": "Builder · Maker · Problem Solver",
+      "fa": "سازنده · میکر · حل‌کننده مسئله"
+    },
+    "intro": {
+      "en": "I turn electronics, firmware, interfaces and physical prototypes into working systems.",
+      "fa": "ایده‌ها را با ترکیب الکترونیک، فریمور، رابط وب و ساخت فیزیکی به سیستم‌های واقعی تبدیل می‌کنم."
+    },
+    "about": {
+      "en": "I like understanding how things work, then building a version of my own. My work lives where embedded systems, IoT, web control and fabrication meet.",
+      "fa": "دوست دارم اول بفهمم یک چیز چطور کار می‌کند و بعد نسخهٔ خودم را بسازم. کارهایم جایی بین سیستم‌های نهفته، IoT، کنترل وب و ساخت فیزیکی قرار می‌گیرند."
+    },
+    "email": "your-email@example.com",
+    "github": "https://github.com/",
+    "workspaceImage": "assets/images/workspace.jpg"
+  },
+  "ui": {
+    "en": {
+      "nav": [
+        "Home",
+        "Projects",
+        "Skills",
+        "About",
+        "Contact"
+      ],
+      "heroKicker": "PERSONAL PORTFOLIO / 2026",
+      "heroButton": "Explore projects",
+      "scroll": "Scroll to explore",
+      "projectsKicker": "Selected work",
+      "projectsTitle": "Things I actually built.",
+      "projectsLead": "A small archive of hardware, software and the space between them.",
+      "skillsKicker": "Toolbox",
+      "skillsTitle": "Skills, without the fluff.",
+      "aboutKicker": "How I work",
+      "aboutTitle": "Curious first. Build second.",
+      "contactKicker": "Open channel",
+      "contactTitle": "Have a problem worth building?",
+      "contactText": "If the idea touches hardware, code or a physical prototype, let's talk.",
+      "view": "View project",
+      "close": "Close",
+      "featured": "Featured",
+      "project": "Project",
+      "year": "Year",
+      "type": "Type",
+      "stack": "Stack",
+      "learned": "What I learned",
+      "email": "Email",
+      "github": "GitHub",
+      "availability": "Available for interesting builds"
+    },
+    "fa": {
+      "nav": [
+        "خانه",
+        "پروژه‌ها",
+        "مهارت‌ها",
+        "درباره من",
+        "ارتباط"
+      ],
+      "heroKicker": "پورتفولیو شخصی / ۱۴۰۵",
+      "heroButton": "دیدن پروژه‌ها",
+      "scroll": "برای کشف بیشتر اسکرول کن",
+      "projectsKicker": "منتخب کارها",
+      "projectsTitle": "چیزهایی که واقعاً ساخته‌ام.",
+      "projectsLead": "آرشیوی از سخت‌افزار، نرم‌افزار و نقطه‌ای که این دو به هم می‌رسند.",
+      "skillsKicker": "جعبه‌ابزار",
+      "skillsTitle": "مهارت‌ها، بدون اغراق.",
+      "aboutKicker": "روش کار من",
+      "aboutTitle": "اول کنجکاوی. بعد ساختن.",
+      "contactKicker": "کانال ارتباطی",
+      "contactTitle": "یک مسئلهٔ ارزشمند برای ساختن داری؟",
+      "contactText": "اگر ایده‌ات به سخت‌افزار، کدنویسی یا یک پروتوتایپ واقعی مربوط می‌شود، خوشحال می‌شوم صحبت کنیم.",
+      "view": "مشاهده پروژه",
+      "close": "بستن",
+      "featured": "پروژه شاخص",
+      "project": "پروژه",
+      "year": "سال",
+      "type": "نوع",
+      "stack": "تکنولوژی",
+      "learned": "چیزی که یاد گرفتم",
+      "email": "ایمیل",
+      "github": "گیت‌هاب",
+      "availability": "آماده برای پروژه‌های جالب"
+    }
+  },
+  "projects": [
+    {
+      "id": "relay-firebase",
+      "number": "01",
+      "image": "proj-relay-firebase.jpg",
+      "year": "2024",
+      "tags": [
+        "ESP",
+        "Firebase",
+        "Realtime",
+        "Web"
+      ],
+      "title": {
+        "en": "Smart Relay with Firebase",
+        "fa": "رله هوشمند با Firebase"
+      },
+      "short": {
+        "en": "A remotely controlled relay paired with a custom web panel and real-time user access.",
+        "fa": "رله هوشمند با کنترل از راه دور، پنل وب اختصاصی و دسترسی تفکیک‌شده برای کاربران."
+      },
+      "desc": {
+        "en": "I built the device and its custom web platform around Firebase Realtime Database and Hosting. Users could control their own device from anywhere while the frontend and real-time data flow were designed as one connected system.",
+        "fa": "این پروژه شامل ساخت دستگاه و پلتفرم وب اختصاصی بر پایه Firebase Realtime Database و Hosting بود. کاربران می‌توانستند از هرجا دستگاه خود را کنترل کنند و فرانت‌اند و جریان دادهٔ لحظه‌ای به‌صورت یک سیستم یکپارچه طراحی شد."
+      },
+      "highlights": {
+        "en": [
+          "Remote control from a custom web panel",
+          "User-to-device access separation",
+          "Real-time synchronization with Firebase"
+        ],
+        "fa": [
+          "کنترل از راه دور با پنل وب اختصاصی",
+          "تفکیک دسترسی کاربران و دستگاه‌ها",
+          "همگام‌سازی لحظه‌ای با Firebase"
+        ]
+      }
+    },
+    {
+      "id": "smart-home",
+      "number": "02",
+      "image": "proj-smarthome.jpg",
+      "year": "2024",
+      "tags": [
+        "ESP",
+        "Sensors",
+        "IoT",
+        "Irrigation"
+      ],
+      "title": {
+        "en": "Smart Home System",
+        "fa": "سیستم خانه هوشمند"
+      },
+      "short": {
+        "en": "Multiple connected devices, sensors, irrigation and one central control experience.",
+        "fa": "چندین دستگاه متصل، سنسور، آبیاری و یک تجربهٔ کنترل متمرکز."
+      },
+      "desc": {
+        "en": "A multi-device ESP-based system including humidity sensing, door monitoring, relay control and smart irrigation. Soil data was visualized live, door events were logged and everything was managed from one central interface.",
+        "fa": "یک سیستم چنددستگاهی مبتنی بر ESP شامل سنجش رطوبت، پایش باز و بسته شدن در، کنترل رله و آبیاری هوشمند. داده‌های خاک به‌صورت زنده نمایش داده می‌شد، رویدادهای در ثبت می‌شدند و همه‌چیز از یک پنل مرکزی مدیریت می‌شد."
+      },
+      "highlights": {
+        "en": [
+          "Multiple ESP-based devices working together",
+          "Live soil-moisture visualization",
+          "Centralized control and event logging"
+        ],
+        "fa": [
+          "چندین دستگاه مبتنی بر ESP در یک سیستم واحد",
+          "نمایش زندهٔ رطوبت خاک",
+          "کنترل متمرکز و ثبت رویدادها"
+        ]
+      }
+    },
+    {
+      "id": "ecg",
+      "number": "03",
+      "image": "proj-ecg.jpg",
+      "year": "2024",
+      "tags": [
+        "ESP",
+        "Live Data",
+        "Firebase",
+        "Charts"
+      ],
+      "title": {
+        "en": "Online ECG Monitoring",
+        "fa": "پایش آنلاین ECG"
+      },
+      "short": {
+        "en": "Streaming ECG signals to a live website instead of keeping the data next to the device.",
+        "fa": "ارسال سیگنال نوار قلب به یک وب‌سایت زنده، به‌جای محدود شدن داده به کنار دستگاه."
+      },
+      "desc": {
+        "en": "The prototype started with a local web server and later moved toward Firebase for broader real-time access. I also built a live-updating chart to turn the incoming signal into a readable web experience.",
+        "fa": "نمونهٔ اولیه با یک وب‌سرور محلی شروع شد و بعد برای دسترسی لحظه‌ای گسترده‌تر به Firebase توسعه پیدا کرد. برای تبدیل سیگنال ورودی به یک تجربهٔ قابل‌خواندن در وب، نمودار زنده‌ای نیز طراحی کردم."
+      },
+      "highlights": {
+        "en": [
+          "Live signal streaming",
+          "Custom live-updating visualization",
+          "From local prototype to remote access"
+        ],
+        "fa": [
+          "انتقال زندهٔ سیگنال",
+          "نمودار اختصاصی با به‌روزرسانی لحظه‌ای",
+          "توسعه از نمونهٔ محلی به دسترسی از راه دور"
+        ]
+      }
+    },
+    {
+      "id": "printer",
+      "number": "04",
+      "image": "proj-printer.jpg",
+      "year": "2024",
+      "tags": [
+        "Mechanics",
+        "Firmware",
+        "Electronics",
+        "3D"
+      ],
+      "title": {
+        "en": "Custom 3D Printer",
+        "fa": "پرینتر سه‌بعدی سفارشی"
+      },
+      "short": {
+        "en": "A fully functional machine assembled around mechanical, electronic and firmware challenges.",
+        "fa": "یک دستگاه کاملاً کاربردی که از چالش‌های مکانیکی، الکترونیکی و فریمور عبور کرده است."
+      },
+      "desc": {
+        "en": "Inspired by the Prusa Bear concept, this was a hands-on build from the ground up. It forced me to deal with structure, motion, electronics and firmware as one physical system rather than separate subjects.",
+        "fa": "این پروژه با الهام از Prusa Bear، یک ساخت عملی از پایه بود و من را مجبور کرد سازه، حرکت، الکترونیک و فریمور را به‌عنوان یک سیستم فیزیکی واحد ببینم، نه چند موضوع جدا از هم."
+      },
+      "highlights": {
+        "en": [
+          "Mechanical assembly and motion challenges",
+          "Electronics and firmware in one system",
+          "A functional machine built around my own needs"
+        ],
+        "fa": [
+          "چالش‌های مونتاژ مکانیکی و سیستم حرکت",
+          "یکپارچه‌سازی الکترونیک و فریمور",
+          "ساخت دستگاهی کاربردی متناسب با نیاز خودم"
+        ]
+      }
+    },
+    {
+      "id": "plug",
+      "number": "05",
+      "image": "proj-plug.jpg",
+      "year": "2024",
+      "tags": [
+        "MQTT",
+        "Web",
+        "Low latency",
+        "Fabrication"
+      ],
+      "title": {
+        "en": "Smart Plug with MQTT",
+        "fa": "پریز هوشمند با MQTT"
+      },
+      "short": {
+        "en": "A connected plug with a custom low-latency web control experience.",
+        "fa": "یک پریز متصل با تجربهٔ کنترل وب اختصاصی و تأخیر پایین."
+      },
+      "desc": {
+        "en": "The interesting challenge was connecting live MQTT communication to a browser-based interface with minimal delay. I also built a custom dual-topic response system and designed the enclosure with laser-cut plexiglass.",
+        "fa": "چالش اصلی اتصال ارتباط لحظه‌ای MQTT به یک رابط مرورگر با کمترین تأخیر بود. برای این کار یک سیستم پاسخ‌دهی اختصاصی با دو Topic ساختم و بدنه را نیز با پلکسی برش‌لیزری طراحی کردم."
+      },
+      "highlights": {
+        "en": [
+          "Real-time MQTT communication with a web UI",
+          "Custom dual-topic response system",
+          "Physical enclosure made with laser-cut plexiglass"
+        ],
+        "fa": [
+          "ارتباط لحظه‌ای MQTT با رابط وب",
+          "سیستم پاسخ‌دهی اختصاصی با دو Topic",
+          "ساخت بدنه با پلکسی برش‌لیزری"
+        ]
+      }
+    },
+    {
+      "id": "failover",
+      "number": "06",
+      "image": "proj-relay-firebase.jpg",
+      "year": "2025",
+      "tags": [
+        "MQTT",
+        "HTTP",
+        "OTA",
+        "EEPROM"
+      ],
+      "title": {
+        "en": "Smart Relay with MQTT + HTTP Failover",
+        "fa": "رله هوشمند با MQTT و پشتیبان HTTP"
+      },
+      "short": {
+        "en": "A relay designed to keep working when its original communication path became unreliable.",
+        "fa": "رله‌ای که برای ادامهٔ کار حتی در صورت ناپایداری مسیر ارتباطی اصلی طراحی شد."
+      },
+      "desc": {
+        "en": "After instability and filtering issues with free MQTT brokers, I designed an HTTP REST failover path. The project also included OTA updates, EEPROM Wi-Fi configuration, interrupt-based manual control and advanced scheduling.",
+        "fa": "بعد از مشکل پایداری و فیلترینگ در بروکرهای رایگان MQTT، یک مسیر پشتیبان HTTP REST طراحی کردم. پروژه همچنین شامل OTA، ذخیرهٔ تنظیمات Wi-Fi در EEPROM، کنترل دستی مبتنی بر Interrupt و زمان‌بندی پیشرفته بود."
+      },
+      "highlights": {
+        "en": [
+          "Automatic MQTT → HTTP fallback",
+          "OTA and EEPROM-based Wi-Fi configuration",
+          "Interrupt-based manual control and scheduling"
+        ],
+        "fa": [
+          "مسیر پشتیبان خودکار MQTT به HTTP",
+          "OTA و ذخیرهٔ تنظیمات Wi-Fi در EEPROM",
+          "کنترل دستی مبتنی بر Interrupt و زمان‌بندی"
+        ]
+      }
+    },
+    {
+      "id": "avr",
+      "number": "07",
+      "image": "proj-avr.jpg",
+      "year": "2023",
+      "tags": [
+        "AVR",
+        "C",
+        "CodeVision",
+        "Proteus"
+      ],
+      "title": {
+        "en": "AVR Microcontroller Projects",
+        "fa": "پروژه‌های میکروکنترلر AVR"
+      },
+      "short": {
+        "en": "A collection of early projects that built my foundation in low-level programming and hardware logic.",
+        "fa": "مجموعه‌ای از پروژه‌های اولیه که پایهٔ برنامه‌نویسی سطح پایین و منطق سخت‌افزاری من را ساختند."
+      },
+      "desc": {
+        "en": "The collection included a digital password lock, adjustable thermostat, timer relay, electronic dice and LED matrix display using shift registers. These projects were developed with CodeVision and simulated in Proteus.",
+        "fa": "این مجموعه شامل قفل رمزی دیجیتال، ترموستات تنظیم‌پذیر، رلهٔ تایمردار، تاس الکترونیکی و تابلو روان با Shift Register بود. پروژه‌ها با CodeVision توسعه و در Proteus شبیه‌سازی شدند."
+      },
+      "highlights": {
+        "en": [
+          "Digital password lock and adjustable thermostat",
+          "Timer relay and electronic dice",
+          "LED matrix display with shift registers"
+        ],
+        "fa": [
+          "قفل رمزی دیجیتال و ترموستات تنظیم‌پذیر",
+          "رلهٔ تایمردار و تاس الکترونیکی",
+          "تابلو روان با Shift Register"
+        ]
+      }
+    }
+  ],
+  "skills": [
+    {
+      "id": "arduino",
+      "name": "Arduino",
+      "level": "strong",
+      "experience": "major",
+      "group": "embedded",
+      "projects": [
+        "relay-firebase",
+        "smart-home",
+        "ecg",
+        "plug",
+        "failover"
+      ]
+    },
+    {
+      "id": "iot",
+      "name": "IoT",
+      "level": "strong",
+      "experience": "major",
+      "group": "iot",
+      "projects": [
+        "relay-firebase",
+        "smart-home",
+        "ecg",
+        "plug",
+        "failover"
+      ]
+    },
+    {
+      "id": "esp",
+      "name": "ESP32 / ESP8266",
+      "level": "strong",
+      "experience": "major",
+      "group": "embedded",
+      "projects": [
+        "relay-firebase",
+        "smart-home",
+        "ecg",
+        "plug",
+        "failover"
+      ]
+    },
+    {
+      "id": "avr",
+      "name": "AVR",
+      "level": "practical",
+      "experience": "major",
+      "group": "embedded",
+      "projects": [
+        "avr"
+      ],
+      "note": {
+        "en": "Rusty lately, but previously used in several projects.",
+        "fa": "مدتی است کمتر سراغش رفته‌ام، اما چند پروژه با آن انجام داده‌ام."
+      }
+    },
+    {
+      "id": "htmlcss",
+      "name": "HTML / CSS",
+      "level": "strong",
+      "experience": "major",
+      "group": "web",
+      "projects": [
+        "relay-firebase",
+        "smart-home",
+        "ecg",
+        "plug",
+        "failover"
+      ]
+    },
+    {
+      "id": "js",
+      "name": "JavaScript",
+      "level": "foundational",
+      "experience": "basic",
+      "group": "web",
+      "projects": [
+        "relay-firebase",
+        "smart-home"
+      ]
+    },
+    {
+      "id": "php",
+      "name": "PHP",
+      "level": "foundational",
+      "experience": "basic",
+      "group": "web",
+      "projects": []
+    },
+    {
+      "id": "data",
+      "name": "MySQL / Firebase",
+      "level": "foundational",
+      "experience": "practical",
+      "group": "web",
+      "projects": [
+        "relay-firebase",
+        "smart-home",
+        "ecg",
+        "failover"
+      ]
+    },
+    {
+      "id": "kicad",
+      "name": "KiCad",
+      "level": "foundational",
+      "experience": "basic",
+      "group": "electronics",
+      "projects": []
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion 360",
+      "level": "practical",
+      "experience": "basic",
+      "group": "fabrication",
+      "projects": []
+    },
+    {
+      "id": "printing",
+      "name": "3D Printing",
+      "level": "strong",
+      "experience": "major",
+      "group": "fabrication",
+      "projects": [
+        "printer"
+      ]
+    },
+    {
+      "id": "repair",
+      "name": "Electronics Repair",
+      "level": "practical",
+      "experience": "basic",
+      "group": "electronics",
+      "projects": []
+    }
+  ],
+  "skillGroups": {
+    "embedded": {
+      "en": "Embedded & IoT",
+      "fa": "امبدد و IoT"
+    },
+    "web": {
+      "en": "Web & Data",
+      "fa": "وب و داده"
+    },
+    "electronics": {
+      "en": "Electronics",
+      "fa": "الکترونیک"
+    },
+    "fabrication": {
+      "en": "Fabrication",
+      "fa": "ساخت و تولید"
+    }
+  }
+}
